@@ -27,7 +27,10 @@ MariaDB is de naam van een variant (fork) van de bekende database MySQL. Onder F
 
 Beschrijf hier de exacte procedure hoe je dit uitgevoerd hebt. Zorg er voor dat je aan de hand van je beschrijving deze taken later heel vlot kan herhalen als dat nodig is. Test ook telkens na elke stap dat die correct verlopen is.
 
-1. ...
+1. dnf install mariadb-server
+2. systemctl start mariadb
+3. systemctl enable mariadb
+4. mysql_secure_installation
 
 ## Webapplicatie
 
